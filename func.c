@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int func_swap(a, b)
+int func_swap(int* a, int* b)
 {
 	int t;
 	t = a;
